@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+:root {
+  --color1: rgb(0, 4, 15);
+  --color2: rgba(255, 255, 255, 0.8);
+  --color3: 
+}
+
+body {
+  background-color: var(--color1);
+  color: var(--color2);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 200;
+}
+
+.textoDestaque {
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, rgb(222, 249, 250) 0.89%, rgb(190, 243, 245) 17.23%, rgb(157, 237, 240) 42.04%, rgb(125, 231, 235) 55.12%, rgb(92, 225, 230) 71.54%, rgb(51, 187, 207) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.destaque {
+  font-weight: 700;
+}
+
+.barra {
+  border-right: 2px solid var(--color2);
+}
+
+.btn-primary {
+  background: linear-gradient(157.81deg, rgb(222, 249, 250) -43.27%, rgb(190, 243, 245) -21.24%, rgb(157, 237, 240) 12.19%, rgb(125, 231, 235) 29.82%, rgb(92, 225, 230) 51.94%, rgb(51, 187, 207) 90.29%);
+    color: rgb(0, 4, 15);
+}
+
+.fundo {
+  border-radius: 10px;
+  background: linear-gradient(144.39deg, rgb(255, 255, 255) -278.56%, rgb(109, 109, 109) -78.47%, rgb(17, 16, 29) 91.61%);
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+}
+
+.depoimento:hover {
+  border-radius: 10px;
+  background: linear-gradient(144.39deg, rgb(255, 255, 255) -278.56%, rgb(109, 109, 109) -78.47%, rgb(17, 16, 29) 91.61%);
+}
+
+@media(max-width: 768px) {
+  .barra {
+    border-right: 0px solid var(--color1);
+  }
+}
